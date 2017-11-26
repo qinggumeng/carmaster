@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0120201E1FCAA4BB00BDC914 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0120201D1FCAA4BB00BDC914 /* AppDelegate.m */; };
+		012020211FCAA4BB00BDC914 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012020201FCAA4BB00BDC914 /* ViewController.m */; };
+		012020241FCAA4BB00BDC914 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012020221FCAA4BB00BDC914 /* Main.storyboard */; };
+		012020261FCAA4BB00BDC914 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012020251FCAA4BB00BDC914 /* Assets.xcassets */; };
+		012020291FCAA4BB00BDC914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012020271FCAA4BB00BDC914 /* LaunchScreen.storyboard */; };
+		0120202C1FCAA4BB00BDC914 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0120202B1FCAA4BB00BDC914 /* main.m */; };
+		012020361FCAA4BB00BDC914 /* carmasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 012020351FCAA4BB00BDC914 /* carmasterTests.m */; };
+		012020411FCAA4BB00BDC914 /* carmasterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 012020401FCAA4BB00BDC914 /* carmasterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		012020321FCAA4BB00BDC914 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 012020111FCAA4BA00BDC914 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 012020181FCAA4BB00BDC914;
+			remoteInfo = carmaster;
+		};
+		0120203D1FCAA4BB00BDC914 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 012020111FCAA4BA00BDC914 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 012020181FCAA4BB00BDC914;
+			remoteInfo = carmaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012020191FCAA4BB00BDC914 /* carmaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carmaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0120201C1FCAA4BB00BDC914 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0120201D1FCAA4BB00BDC914 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0120201F1FCAA4BB00BDC914 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		012020201FCAA4BB00BDC914 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		012020231FCAA4BB00BDC914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		012020251FCAA4BB00BDC914 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		012020281FCAA4BB00BDC914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0120202A1FCAA4BB00BDC914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0120202B1FCAA4BB00BDC914 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		012020311FCAA4BB00BDC914 /* carmasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carmasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		012020351FCAA4BB00BDC914 /* carmasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = carmasterTests.m; sourceTree = "<group>"; };
+		012020371FCAA4BB00BDC914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0120203C1FCAA4BB00BDC914 /* carmasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carmasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		012020401FCAA4BB00BDC914 /* carmasterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = carmasterUITests.m; sourceTree = "<group>"; };
+		012020421FCAA4BB00BDC914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		012020161FCAA4BB00BDC914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0120202E1FCAA4BB00BDC914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		012020391FCAA4BB00BDC914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		012020101FCAA4BA00BDC914 = {
+			isa = PBXGroup;
+			children = (
+				0120201B1FCAA4BB00BDC914 /* carmaster */,
+				012020341FCAA4BB00BDC914 /* carmasterTests */,
+				0120203F1FCAA4BB00BDC914 /* carmasterUITests */,
+				0120201A1FCAA4BB00BDC914 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0120201A1FCAA4BB00BDC914 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				012020191FCAA4BB00BDC914 /* carmaster.app */,
+				012020311FCAA4BB00BDC914 /* carmasterTests.xctest */,
+				0120203C1FCAA4BB00BDC914 /* carmasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0120201B1FCAA4BB00BDC914 /* carmaster */ = {
+			isa = PBXGroup;
+			children = (
+				0120201C1FCAA4BB00BDC914 /* AppDelegate.h */,
+				0120201D1FCAA4BB00BDC914 /* AppDelegate.m */,
+				0120201F1FCAA4BB00BDC914 /* ViewController.h */,
+				012020201FCAA4BB00BDC914 /* ViewController.m */,
+				012020221FCAA4BB00BDC914 /* Main.storyboard */,
+				012020251FCAA4BB00BDC914 /* Assets.xcassets */,
+				012020271FCAA4BB00BDC914 /* LaunchScreen.storyboard */,
+				0120202A1FCAA4BB00BDC914 /* Info.plist */,
+				0120202B1FCAA4BB00BDC914 /* main.m */,
+			);
+			path = carmaster;
+			sourceTree = "<group>";
+		};
+		012020341FCAA4BB00BDC914 /* carmasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				012020351FCAA4BB00BDC914 /* carmasterTests.m */,
+				012020371FCAA4BB00BDC914 /* Info.plist */,
+			);
+			path = carmasterTests;
+			sourceTree = "<group>";
+		};
+		0120203F1FCAA4BB00BDC914 /* carmasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				012020401FCAA4BB00BDC914 /* carmasterUITests.m */,
+				012020421FCAA4BB00BDC914 /* Info.plist */,
+			);
+			path = carmasterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		012020181FCAA4BB00BDC914 /* carmaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 012020451FCAA4BB00BDC914 /* Build configuration list for PBXNativeTarget "carmaster" */;
+			buildPhases = (
+				012020151FCAA4BB00BDC914 /* Sources */,
+				012020161FCAA4BB00BDC914 /* Frameworks */,
+				012020171FCAA4BB00BDC914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = carmaster;
+			productName = carmaster;
+			productReference = 012020191FCAA4BB00BDC914 /* carmaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		012020301FCAA4BB00BDC914 /* carmasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 012020481FCAA4BB00BDC914 /* Build configuration list for PBXNativeTarget "carmasterTests" */;
+			buildPhases = (
+				0120202D1FCAA4BB00BDC914 /* Sources */,
+				0120202E1FCAA4BB00BDC914 /* Frameworks */,
+				0120202F1FCAA4BB00BDC914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				012020331FCAA4BB00BDC914 /* PBXTargetDependency */,
+			);
+			name = carmasterTests;
+			productName = carmasterTests;
+			productReference = 012020311FCAA4BB00BDC914 /* carmasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0120203B1FCAA4BB00BDC914 /* carmasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0120204B1FCAA4BB00BDC914 /* Build configuration list for PBXNativeTarget "carmasterUITests" */;
+			buildPhases = (
+				012020381FCAA4BB00BDC914 /* Sources */,
+				012020391FCAA4BB00BDC914 /* Frameworks */,
+				0120203A1FCAA4BB00BDC914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0120203E1FCAA4BB00BDC914 /* PBXTargetDependency */,
+			);
+			name = carmasterUITests;
+			productName = carmasterUITests;
+			productReference = 0120203C1FCAA4BB00BDC914 /* carmasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		012020111FCAA4BA00BDC914 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "zhang zheng";
+				TargetAttributes = {
+					012020181FCAA4BB00BDC914 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					012020301FCAA4BB00BDC914 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 012020181FCAA4BB00BDC914;
+					};
+					0120203B1FCAA4BB00BDC914 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 012020181FCAA4BB00BDC914;
+					};
+				};
+			};
+			buildConfigurationList = 012020141FCAA4BA00BDC914 /* Build configuration list for PBXProject "carmaster" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 012020101FCAA4BA00BDC914;
+			productRefGroup = 0120201A1FCAA4BB00BDC914 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				012020181FCAA4BB00BDC914 /* carmaster */,
+				012020301FCAA4BB00BDC914 /* carmasterTests */,
+				0120203B1FCAA4BB00BDC914 /* carmasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		012020171FCAA4BB00BDC914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012020291FCAA4BB00BDC914 /* LaunchScreen.storyboard in Resources */,
+				012020261FCAA4BB00BDC914 /* Assets.xcassets in Resources */,
+				012020241FCAA4BB00BDC914 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0120202F1FCAA4BB00BDC914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0120203A1FCAA4BB00BDC914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		012020151FCAA4BB00BDC914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012020211FCAA4BB00BDC914 /* ViewController.m in Sources */,
+				0120202C1FCAA4BB00BDC914 /* main.m in Sources */,
+				0120201E1FCAA4BB00BDC914 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0120202D1FCAA4BB00BDC914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012020361FCAA4BB00BDC914 /* carmasterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		012020381FCAA4BB00BDC914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012020411FCAA4BB00BDC914 /* carmasterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		012020331FCAA4BB00BDC914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 012020181FCAA4BB00BDC914 /* carmaster */;
+			targetProxy = 012020321FCAA4BB00BDC914 /* PBXContainerItemProxy */;
+		};
+		0120203E1FCAA4BB00BDC914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 012020181FCAA4BB00BDC914 /* carmaster */;
+			targetProxy = 0120203D1FCAA4BB00BDC914 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		012020221FCAA4BB00BDC914 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				012020231FCAA4BB00BDC914 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		012020271FCAA4BB00BDC914 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				012020281FCAA4BB00BDC914 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		012020431FCAA4BB00BDC914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		012020441FCAA4BB00BDC914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		012020461FCAA4BB00BDC914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98L7DQ3GWS;
+				INFOPLIST_FILE = carmaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxd.carmaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		012020471FCAA4BB00BDC914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98L7DQ3GWS;
+				INFOPLIST_FILE = carmaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxd.carmaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		012020491FCAA4BB00BDC914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98L7DQ3GWS;
+				INFOPLIST_FILE = carmasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxd.carmasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/carmaster.app/carmaster";
+			};
+			name = Debug;
+		};
+		0120204A1FCAA4BB00BDC914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98L7DQ3GWS;
+				INFOPLIST_FILE = carmasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxd.carmasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/carmaster.app/carmaster";
+			};
+			name = Release;
+		};
+		0120204C1FCAA4BB00BDC914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98L7DQ3GWS;
+				INFOPLIST_FILE = carmasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxd.carmasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = carmaster;
+			};
+			name = Debug;
+		};
+		0120204D1FCAA4BB00BDC914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98L7DQ3GWS;
+				INFOPLIST_FILE = carmasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxd.carmasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = carmaster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		012020141FCAA4BA00BDC914 /* Build configuration list for PBXProject "carmaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012020431FCAA4BB00BDC914 /* Debug */,
+				012020441FCAA4BB00BDC914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		012020451FCAA4BB00BDC914 /* Build configuration list for PBXNativeTarget "carmaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012020461FCAA4BB00BDC914 /* Debug */,
+				012020471FCAA4BB00BDC914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		012020481FCAA4BB00BDC914 /* Build configuration list for PBXNativeTarget "carmasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012020491FCAA4BB00BDC914 /* Debug */,
+				0120204A1FCAA4BB00BDC914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0120204B1FCAA4BB00BDC914 /* Build configuration list for PBXNativeTarget "carmasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0120204C1FCAA4BB00BDC914 /* Debug */,
+				0120204D1FCAA4BB00BDC914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 012020111FCAA4BA00BDC914 /* Project object */;
+}
