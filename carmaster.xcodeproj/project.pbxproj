@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010631A0200307A600E76B6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0106319F200307A600E76B6F /* Images.xcassets */; };
+		010631A2200307FA00E76B6F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 010631A1200307FA00E76B6F /* icon.png */; };
+		010631A420034D2C00E76B6F /* test1.html in Resources */ = {isa = PBXBuildFile; fileRef = 010631A320034D2C00E76B6F /* test1.html */; };
 		0120201E1FCAA4BB00BDC914 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0120201D1FCAA4BB00BDC914 /* AppDelegate.m */; };
 		012020211FCAA4BB00BDC914 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012020201FCAA4BB00BDC914 /* ViewController.m */; };
 		012020241FCAA4BB00BDC914 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012020221FCAA4BB00BDC914 /* Main.storyboard */; };
@@ -15,6 +18,8 @@
 		0120202C1FCAA4BB00BDC914 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0120202B1FCAA4BB00BDC914 /* main.m */; };
 		012020361FCAA4BB00BDC914 /* carmasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 012020351FCAA4BB00BDC914 /* carmasterTests.m */; };
 		012020411FCAA4BB00BDC914 /* carmasterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 012020401FCAA4BB00BDC914 /* carmasterUITests.m */; };
+		0182D0A72005A79400FA85E3 /* SaveImage_Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 0182D0A52005A79400FA85E3 /* SaveImage_Util.m */; };
+		0182D0A82005A79400FA85E3 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 0182D0A62005A79400FA85E3 /* test.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0106319F200307A600E76B6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		010631A1200307FA00E76B6F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../icon.png; sourceTree = "<group>"; };
+		010631A320034D2C00E76B6F /* test1.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = test1.html; sourceTree = "<group>"; };
 		012020191FCAA4BB00BDC914 /* carmaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carmaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0120201C1FCAA4BB00BDC914 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0120201D1FCAA4BB00BDC914 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +59,9 @@
 		0120203C1FCAA4BB00BDC914 /* carmasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carmasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		012020401FCAA4BB00BDC914 /* carmasterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = carmasterUITests.m; sourceTree = "<group>"; };
 		012020421FCAA4BB00BDC914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0182D0A42005A79400FA85E3 /* SaveImage_Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SaveImage_Util.h; path = ../../../webtest/webtest/SaveImage_Util.h; sourceTree = "<group>"; };
+		0182D0A52005A79400FA85E3 /* SaveImage_Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SaveImage_Util.m; path = ../../../webtest/webtest/SaveImage_Util.m; sourceTree = "<group>"; };
+		0182D0A62005A79400FA85E3 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = test.html; path = ../../../webtest/webtest/test.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +112,10 @@
 		0120201B1FCAA4BB00BDC914 /* carmaster */ = {
 			isa = PBXGroup;
 			children = (
+				0182D0A42005A79400FA85E3 /* SaveImage_Util.h */,
+				0182D0A52005A79400FA85E3 /* SaveImage_Util.m */,
+				0182D0A62005A79400FA85E3 /* test.html */,
+				010631A1200307FA00E76B6F /* icon.png */,
 				0120201C1FCAA4BB00BDC914 /* AppDelegate.h */,
 				0120201D1FCAA4BB00BDC914 /* AppDelegate.m */,
 				0120201F1FCAA4BB00BDC914 /* ViewController.h */,
@@ -110,6 +125,8 @@
 				012020271FCAA4BB00BDC914 /* LaunchScreen.storyboard */,
 				0120202A1FCAA4BB00BDC914 /* Info.plist */,
 				0120202B1FCAA4BB00BDC914 /* main.m */,
+				0106319F200307A600E76B6F /* Images.xcassets */,
+				010631A320034D2C00E76B6F /* test1.html */,
 			);
 			path = carmaster;
 			sourceTree = "<group>";
@@ -238,6 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0182D0A82005A79400FA85E3 /* test.html in Resources */,
+				010631A0200307A600E76B6F /* Images.xcassets in Resources */,
+				010631A2200307FA00E76B6F /* icon.png in Resources */,
+				010631A420034D2C00E76B6F /* test1.html in Resources */,
 				012020291FCAA4BB00BDC914 /* LaunchScreen.storyboard in Resources */,
 				012020261FCAA4BB00BDC914 /* Assets.xcassets in Resources */,
 				012020241FCAA4BB00BDC914 /* Main.storyboard in Resources */,
@@ -267,6 +288,7 @@
 			files = (
 				012020211FCAA4BB00BDC914 /* ViewController.m in Sources */,
 				0120202C1FCAA4BB00BDC914 /* main.m in Sources */,
+				0182D0A72005A79400FA85E3 /* SaveImage_Util.m in Sources */,
 				0120201E1FCAA4BB00BDC914 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98L7DQ3GWS;
 				INFOPLIST_FILE = carmaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lxd.carmaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98L7DQ3GWS;
 				INFOPLIST_FILE = carmaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lxd.carmaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
